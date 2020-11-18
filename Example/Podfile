@@ -1,0 +1,6 @@
+use_frameworks!
+target 'InetBleLib_Tests' do
+  pod 'InetBleLib', :path => '../'
+  
+  
+end
