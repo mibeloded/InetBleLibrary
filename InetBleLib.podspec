@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InetBleLib'
-  s.version          = '0.1.3'
+  s.version          = '2.3.0'
   s.swift_version    = '5.0'
-  s.summary          = 'Body Fat Scale SDK is a Bluetooth development tool provided to Inet partners.'
+  s.summary          = 'Body Fat Scale SDK v.2.3 is a Bluetooth development tool provided to Inet partners.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

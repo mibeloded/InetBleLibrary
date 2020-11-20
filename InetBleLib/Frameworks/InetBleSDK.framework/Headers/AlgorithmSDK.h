@@ -1,7 +1,5 @@
 //
 //  Algorithm.h
-//  GreatBody
-//
 //  Created by steven wu on 2019/6/25.
 //
 

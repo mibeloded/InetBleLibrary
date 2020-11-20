@@ -39,8 +39,6 @@ typedef NS_ENUM(NSInteger,BluetoothManagerState) {
 
 @interface INBluetoothManager : NSObject
 
-//apply sdk key website http://sdk.aicare.net.cn/
-+ (void)configAppKey:(NSString *)appKey secret:(NSString *)appSecret;
 
 + (instancetype)shareManager;
 
@@ -54,7 +52,7 @@ typedef NS_ENUM(NSInteger,BluetoothManagerState) {
 - (void)connectToLinkScale:(DeviceModel *)linkScaleDeviceModel;
 - (void)handleDataForBroadScale:(DeviceModel *)broadScaleDeviceModel;
 
-//SDK使用者无需调用此方法，直接使用WriteToBLEManager来写入即可
+//Don’t invoke this, just use WriteToBLEManager to write data to ble
 - (void)sendDataToBle:(NSData *)data;
 
 + (void)enableSDKLogs:(BOOL)enable;

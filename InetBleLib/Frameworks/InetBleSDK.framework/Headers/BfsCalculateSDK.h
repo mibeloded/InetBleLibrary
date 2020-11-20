@@ -1,9 +1,6 @@
 //
-//  FRK_fatScalesSDK.h
-//  FRK_fatScalesSDK
-//
-//  Created by zhang on 17/2/24.
-//  Copyright © 2017年 taolei. All rights reserved.
+//  BfsCalculateSDK
+//  Created by steven wu on 2019/6/25.
 //
 
 #import <Foundation/Foundation.h>
